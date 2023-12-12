@@ -1,0 +1,43 @@
+.read_container{
+    background: rgba(24, 24, 16, .2);
+    background-image: url(../assets/create.gif);
+    background-position: center;
+    color: white;
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+table tr td, table tr th{
+    background-color: rgba(255, 255, 255, 0.45) !important;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+table{
+    backdrop-filter: blur(25px);
+}
+
+.scrollable-table {
+    max-height: 800px;
+    overflow-y: auto;
+    display: block;
+}
+
+.scrollable-table thead,
+.scrollable-table tbody {
+    display: block;
+}
+
+.scrollable-table tbody {
+    overflow-y: auto;
+    height: 750px;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    backdrop-filter: blur(1px);
+}
